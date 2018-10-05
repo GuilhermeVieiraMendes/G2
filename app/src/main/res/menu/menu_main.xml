@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.paulosouza.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/sem_parametro"
+        android:orderInCategory="100"
+        android:title="Sem parametro"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/comparametro"
+        android:orderInCategory="100"
+        android:title="Com parâmetro"
+        app:showAsAction="never" />
+</menu>
